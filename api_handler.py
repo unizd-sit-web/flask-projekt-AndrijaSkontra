@@ -8,7 +8,7 @@ class APIHandler:
     def __init__(self, city):
         self.city = city
         self.api_key = os.environ.get("WEATHERAPI")
-        self.url = f"https://api.openweathermap.org/data/2.5/weather?q={self.city}&lang=hr&appid=2ca5630c7892ba8104791e904382120d"
+        self.url = f"https://api.openweathermap.org/data/2.5/weather?q={self.city}&lang=hr&appid={self.api_key}"
         self.json_weather = requests.get(self.url).json()
 
     def get_weather_data(self):
