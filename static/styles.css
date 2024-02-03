@@ -85,7 +85,11 @@ button:hover {
     border-radius: 10px;
     margin-top: 20px;
     padding: 20px;
-    text-align: center;
+
+}
+
+#list_tasks {
+    margin-left: 40%;
 }
 
 
