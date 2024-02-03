@@ -5,11 +5,21 @@
 {% block content %}
     <div id="home-content">
         <h1>Cool Weather Application</h1>
-        <p>This is a weather application made by Andrija Škontra</p>
-        <img id="storm" src="static/storm.jpg" alt="Storm" width="40%" height="30%">
+        <img id="storm" src="static/storm.jpg" alt="Storm">
         <br>
-        <p>Project for: Programiranje za WEB</p>
+        <main>
+            <section id="howto">
+                <h2>Kako koristiti aplikaciju</h2>
+                <p>Na ovoj stranici možete jednostavno dobiti vremenske podatke za određenu lokaciju. Slijedite sljedeće korake:
+                    <br>
+                    Unesite željenu lokaciju u polje za unos.
+                    <br>
+                    Kliknite na gumb "Find".
+                    <br>
+                    Prikazat će se vremenski podaci za unesenu lokaciju.</p>
+            </section>
+        </main>
     </div>
 {% endblock %}
 
-<link href="static/styles.css" rel="stylesheet">
+

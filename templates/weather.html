@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Weather{% endblock %}
+
+{% block content %}
+        <form action="/weather" method="post">
+            <input type="text" id="city" name="cityName" placeholder="City">
+            <button>Find</button>
+        </form>
+        {% if data %}
+        <div class="weather-info">
+            Temperatura: {{ data[1] }} C&deg;
+            <br><br>
+            Trenutno stanje: {{ data[0] }}
+            <br>
+            <img src="https://openweathermap.org/img/wn/{{ data[2] }}@2x.png" alt="Icon">
+        </div>
+        {% endif %}
+{% endblock %}
+
+<link href="static/stylesWeather.css" rel="stylesheet">

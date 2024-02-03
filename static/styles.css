@@ -27,10 +27,65 @@ p {
     border-radius: 50%;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 150px;
-    height: 150px;
+    width: 20%;
+    height: 15%;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#vjetar {
+    align-content: center;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 20%;
+    height: 15%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info {
+    background-color: #f2f2f2;  /* Gray background color */
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Additional styling for the form elements */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;    /* Rounded edges */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);  /* Box shadow for a subtle lift effect */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;    /* Rounded edges */
+    background-color: #007bff;  /* Button color */
+    color: #fff;  /* Text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#howto {
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 

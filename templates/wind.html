@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Weather{% endblock %}
+
+{% block content %}
+        <form action="/wind" method="post">
+            <input type="text" id="city" name="cityName" placeholder="City">
+            <button>Find</button>
+        </form>
+        {% if data %}
+        <div class="weather-info">
+            Brzina vjetra: {{ data[0] }} km/h
+            <br><br>
+            Smjer vjetra: {{ data[1] }}&deg;
+            <br>
+            <img id="vjetar" src="static/ruza-vjetrova.jpg" alt="ruža vjetrova">
+        </div>
+        {% endif %}
+{% endblock %}
