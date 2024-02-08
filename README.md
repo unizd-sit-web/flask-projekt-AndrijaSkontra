@@ -34,6 +34,13 @@ Aplikacija će biti dostupna na [http://localhost:5000/](http://localhost:5000/)
 
 - Aplikacija zahtijeva OpenWeather API ključ za ispravan rad. Postavite ključ kao okolinjsku varijablu "WEATHERAPI" prije pokretanja.
 
+## Izgled aplikacije
+
+![HomePage](images/img.png)
+![HomePage](images/img_1.png)
+![HomePage](images/img_2.png)
+![HomePage](images/img_3.png)
+
 ---
 
 **Autor:** Andrija Škontra
